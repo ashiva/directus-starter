@@ -32,6 +32,6 @@ module.exports = function (env) {
         STORAGE_S3_SECRET: env.S3_SECRET,
         STORAGE_S3_BUCKET: 'freehumans',
         STORAGE_S3_REGION: 'us-west-2',
-        STORAGE_S3_ENDPOINT: 'https://s3.amazonaws.com',
+        STORAGE_S3_ENDPOINT: 'http://s3.us-west-2.amazonaws.com',
     };
 };
