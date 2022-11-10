@@ -22,5 +22,16 @@ module.exports = function (env) {
         DB_USER: env.DB_USER,
         DB_PASSWORD: env.DB_PASSWORD,
         
+        // S3 Settings
+        STORAGE_LOCATIONS: 's3',
+        STORAGE_S3_DRIVER: 's3',
+        STORAGE_S3_ACL: 'public-read',
+        STORAGE_S3_ROOT: '/cms',
+        STORAGE_S3_HEALTHCHECK_THRESHOLD: 750,
+        STORAGE_S3_KEY: env.S3_KEY,
+        STORAGE_S3_SECRET: env.S3_SECRET,
+        STORAGE_S3_BUCKET: 'freehumans',
+        STORAGE_S3_REGION: 'us-west-2',
+        STORAGE_S3_ENDPOINT: 'https://freehumans.s3.us-west-2.amazonaws.com',
     };
 };
