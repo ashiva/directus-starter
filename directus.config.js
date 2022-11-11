@@ -25,7 +25,6 @@ module.exports = function (env) {
         // S3 Settings
         STORAGE_LOCATIONS: 's3',
         STORAGE_S3_DRIVER: 's3',
-        STORAGE_S3_ACL: 'public-read',
         STORAGE_S3_ROOT: '/cms',
         STORAGE_S3_HEALTHCHECK_THRESHOLD: 750,
         STORAGE_S3_KEY: env.S3_KEY,
